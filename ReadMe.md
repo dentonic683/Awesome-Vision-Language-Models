@@ -1,23 +1,22 @@
-# Awesome Vision Language Models
-
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models/graphs/commit-activity)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome Vision Language Models (VLMs), resources, and tools. This repository aims to provide a comprehensive overview of state-of-the-art models and their applications in the field of computer vision and natural language processing.
+# <p align=center>`Awesome Vision Language Models`</p>
 
-## Table of Contents
+A curated list of awesome open source Multimodal Large Language Models (MLLM) with a special emphasis on Visual/Vision langauge models (VLM). This repository tracks recent advances and open-source releases of top-performing vision-language models.
 
-- [Introduction](#introduction)
-- [Table of Vision Language Models](#table-of-vision-language-models)
-- [Contributing](#contributing)
-- [License](#license)
+## 📢 Latest Updates
+:fire: Last Updated on 2024.06.10 :fire:
 
-## Introduction
+- **2024.6.04**: Added Vila.
+- **2024.5.25**: Added Llava.
 
-Vision Language Models (VLMs) integrate visual and textual data to perform a variety of tasks such as image captioning, visual question answering, and image-text matching. This repository provides an overview of notable VLMs, their features, and links to relevant resources.
 
-## Table of Vision Language Models
 
-| Model Name | Description | Published Year | GitHub Repo | Paper |
+
+## Vision Language Models (Small <5B)
+
+| Model Name | Published Year | GitHub | Model/Quants | Cognition/Perception | MMMU | MME | Llava-bench | VQA v2 | GQA | MMB | SEED | MM-vet|
 |------------|-------------|----------------|-------------|-------|
 | CLIP       | Contrastive Language-Image Pre-Training, a method for learning visual concepts from natural language supervision. | 2021 | [OpenAI/CLIP](https://github.com/openai/CLIP) | [Paper](https://arxiv.org/abs/2103.00020) |
 | ViLBERT    | Vision-and-Language BERT, a model that learns joint representations of image and text. | 2019 | [HuggingFace/transformers](https://github.com/huggingface/transformers) | [Paper](https://arxiv.org/abs/1908.02265) |
@@ -26,6 +25,11 @@ Vision Language Models (VLMs) integrate visual and textual data to perform a var
 | LXMERT     | Learning Cross-Modality Encoder Representations from Transformers for vision-and-language tasks. | 2019 | [HuggingFace/transformers](https://github.com/huggingface/transformers) | [Paper](https://arxiv.org/abs/1908.07490) |
 | ImageBERT  | Cross-modal pre-training with large-scale image-text data. | 2020 | [microsoft/ImageBERT](https://github.com/microsoft/ImageBERT) | [Paper](https://arxiv.org/abs/2001.07966) |
 | UNITER     | UNiversal Image-TExt Representation Learning, a unified framework for learning vision-and-language representations. | 2019 | [ChenRocks/UNITER](https://github.com/ChenRocks/UNITER) | [Paper](https://arxiv.org/abs/1909.11740) |
+
+## Vision Language Models (Medium < 34B)
+
+## Vision Language Models (Large > 34B)
+
 
 ## Contributing
 
